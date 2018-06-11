@@ -37,9 +37,9 @@ timezone: Europe/London # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Blog # Needed for Siteleaf
+    title: 风扬夏帆 # Needed for Siteleaf
     output: true
-    description: "This is just a demo, find out more [about Garth](about)" # The post list page content
+    description: "喜欢夏天！烈日蝉鸣，是农闲的阳光小镇，是无所事事的懒散下午，是扇着扇子的裸背大叔，是吐着舌头的可爱小狗，是穿着短裤的邻家女孩。" # The post list page content
 
 # 6. Jekyll collections settings
 defaults:
