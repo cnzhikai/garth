@@ -37,7 +37,7 @@ timezone: Europe/London # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: 风扬夏帆 # Needed for Siteleaf
+    title: 夏和帆 # Needed for Siteleaf
     output: true
     description: "这里的夏天并不炎热！烈日蝉鸣，阳光小镇正在农闲。这个下午你我懒散着无所事事。身旁是扇着扇子的裸背大叔、一条吐着舌头的可爱小狗、还有穿着短裤的邻家女孩..." # The post list page content
 
