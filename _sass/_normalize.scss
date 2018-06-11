@@ -6,7 +6,8 @@
  */
 
 
-@font-face {
+ html {
+  @font-face {
     font-family: 'STSong';
     src: url('../font/STSong.eot');
     src: url('../font/STSong.eot?#iefix') format('embedded-opentype'),
@@ -16,7 +17,14 @@
          url('../font/STSong.svg#STSong') format('svg');
     font-weight: normal;
     font-style: normal;
+} /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
+ 
+ 
+ 
+
 
 html {
   font-family: "STSong"; /* 1 */
