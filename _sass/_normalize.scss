@@ -8,11 +8,11 @@
 
  @font-face {
     font-family:'STSong';
-    src: url('STSong.eot');
-	src: url('STSong.eot?#iefix') format('embedded-opentype'),
-		url('STSong.woff2') format('woff2'),
-		url('STSong.woff') format('woff'),
-		url('STSong.svg#STSong') format('svg');
+    src: url('./font/STSong.eot');
+	src: url('./font/STSong.eot?#iefix') format('embedded-opentype'),
+		url('./font/STSong.woff2') format('woff2'),
+		url('./font/STSong.woff') format('woff'),
+		url('./font/STSong.svg#STSong') format('svg');
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
