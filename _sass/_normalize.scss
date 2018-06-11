@@ -5,10 +5,17 @@
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
 
-html {
-  font-family: "STSong","宋体",sans-serif; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+
+@font-face {
+    font-family: 'STSong';
+    src: url('/font/STSong.eot');
+    src: url('/font/STSong.eot?#iefix') format('embedded-opentype'),
+         url('/font/STSong.woff2') format('woff2'),
+         url('/font/STSong.woff') format('woff'),
+         url('/font/STSong.ttf') format('truetype'),
+         url('/font/STSong.svg#STSong') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /**
